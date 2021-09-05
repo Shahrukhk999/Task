@@ -9,6 +9,6 @@ https://www.youtube.com/watch?v=dvSCzcjXIVk&list=PLhW3qG5bs-L9LTfxZ5LEBiM1WFfvX3
                            After that install cypress with npm install cypress
 # Run the comand npm cypress run 
 and all the test case will execute in headless mode in the terminal 
-# for reports
+# For reports
 run install mocha --save-dev.
-and you will see reprots in mochawesome-report
+                         Aand you will see reprots in mochawesome-report
