@@ -1,5 +1,5 @@
-# Yhis ia a git public repo as per our discussion
-# To run the test case first you need to run website locally 
+# This ia a git public repo as per our discussion
+To run the test case first you need to run website locally 
 https://gitlab.pixelmatic.com/pixelmatic-public/homeworks/qa-homework
 
 After that you just need to intsall cypress for that please make sure node is availble on your system else you can take help from
