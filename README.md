@@ -7,5 +7,8 @@ After that you just need to intsall cypress for that please make sure node is av
 https://www.youtube.com/watch?v=dvSCzcjXIVk&list=PLhW3qG5bs-L9LTfxZ5LEBiM1WFfvX3dJo&index=3
 
                            After that install cypress with npm install cypress
-#                                Run the comand npm cypress run 
-and all the test case will execute in headless mode and you see the reposts in reports dir mochawesome-repots 
+# Run the comand npm cypress run 
+and all the test case will execute in headless mode in the terminal 
+# for reports
+run install mocha --save-dev.
+and you will see reprots in mochawesome-report
