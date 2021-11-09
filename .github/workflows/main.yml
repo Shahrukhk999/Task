@@ -9,7 +9,7 @@ jobs:
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name : test
-        working-directory: ./Task
+        working-directory: Task
       - name : check
         run : pwd
         uses: cypress-io/github-action@v2
