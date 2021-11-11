@@ -1,20 +1,22 @@
-name: End-to-end tests
-on: [push]
+name: Tests
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
 jobs:
-  cypress-run:
-    runs-on: ubuntu-20.04
+  lint-and-test:
+    name: Node 12
+    runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
-      - name : test
-        working-directory: Task
-      - name : check
-        run : pwd
-        
-      - name: npm install
-        uses: cypress-io/github-action@v2
-      - name : npm run cypress
-        uses : cypress-io/github-action@v2
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: npm install
 
