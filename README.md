@@ -1,4 +1,4 @@
-# This ia a git public repo as per our discussion
+# This ia a git public repo to use BDD with Cypress
 To run the test case first you need to run website locally 
 https://gitlab.pixelmatic.com/pixelmatic-public/homeworks/qa-homework
 
